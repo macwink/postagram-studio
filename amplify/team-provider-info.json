@@ -1,0 +1,15 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-postagramstudio-staging-111148-authRole",
+      "UnauthRoleArn": "arn:aws:iam::727624724462:role/amplify-postagramstudio-staging-111148-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::727624724462:role/amplify-postagramstudio-staging-111148-authRole",
+      "Region": "eu-west-3",
+      "DeploymentBucketName": "amplify-postagramstudio-staging-111148-deployment",
+      "UnauthRoleName": "amplify-postagramstudio-staging-111148-unauthRole",
+      "StackName": "amplify-postagramstudio-staging-111148",
+      "StackId": "arn:aws:cloudformation:eu-west-3:727624724462:stack/amplify-postagramstudio-staging-111148/be7a9a50-8806-11ec-9e5e-067683c18ce4",
+      "AmplifyAppId": "d3ttqjtkz1h0aa"
+    }
+  }
+}
