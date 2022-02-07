@@ -3,11 +3,12 @@
   "serviceConfiguration": {
     "apiName": "PostagramStudio",
     "serviceName": "AppSync",
-    "gqlSchemaPath": "/tmp/amplify-6b5e506c-0615-4594-8cf4-56af2e671994/amplify/backend/api/PostagramStudio/schema.graphql",
+    "gqlSchemaPath": "D:\\workshop-aws\\postagramstudio\\amplify\\backend\\api\\PostagramStudio\\schema.graphql",
     "defaultAuthType": {
       "mode": "API_KEY",
-      "keyDescription": "api key description",
-      "expirationTime": 30
+      "expirationTime": 365,
+      "apiKeyExpirationDate": "2023-02-07T12:18:43.613Z",
+      "keyDescription": "postagramstudioapi"
     },
     "additionalAuthTypes": [
       {
