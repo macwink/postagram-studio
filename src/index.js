@@ -1,14 +1,20 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+
+import { AmplifyProvider } from "@aws-amplify/ui-react";
+import "@aws-amplify/ui-react/styles.css"; // default theme
+import "@fontsource/inter/variable.css";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <AmplifyProvider>
+      <App />
+    </AmplifyProvider>
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
 
 // If you want to start measuring performance in your app, pass a function
